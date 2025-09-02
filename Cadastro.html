@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurum Lab - Cadastro</title>
+    <link rel="stylesheet" href="styles/Cadastro.css">
+    <link rel="stylesheet" href="styles/global.css">
+</head>
+<body>
+    <main class="container-cadastro">
+    <div class="topo-cadastro">
+        <div class="texto-cadastro">
+            <h2 class="cadastro-titulo">Cadastro</h2>
+            <p class="descrição">Crie uma nova conta de usuário para o Aurum Lab.</p>
+        </div>
+        <img class="imagem" src="assets/img/icone-logo.svg" alt="">
+       </div>
+        
+       <!-- Lado Direito -->
+
+       <form class="bloco-cadastro">
+        <div class="bloco-caixa">
+        <label for="Nome">Nome Completo:</label>
+        <input type="nome" id="nome" placeholder="Seu nome" required>
+        </div>
+        
+        <div class="bloco-caixa">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="Seu E-mail" required>
+        </div>
+
+        <!-- Lado Esquerdo -->
+   
+  <div class="bloco-caixa">
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" placeholder="Sua senha" required>
+  </div>
+
+  <div class="bloco-caixa">
+    <label for="confirmar">Confirmar Senha:</label>
+    <input type="password" id="confirmar" name="confirmar" placeholder="Confirme a senha" required>
+  </div>
+</div>
+
+       </form>
+    </main>
+    
+</body>
+</html>
